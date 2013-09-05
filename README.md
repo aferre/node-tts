@@ -1,5 +1,6 @@
 node-tts
 ========
+[![Build Status](https://travis-ci.org/aferre/node-tts.png?branch=master)](https://travis-ci.org/aferre/node-tts)
 
 Google tts node api, with redis storage for cache purposes.
 
