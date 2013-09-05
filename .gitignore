@@ -12,3 +12,6 @@ logs
 results
 
 npm-debug.log
+.c9revisions
+.settings
+node_modules

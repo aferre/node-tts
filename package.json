@@ -1,0 +1,39 @@
+{
+  "name": "node-tts",
+  "version": "0.0.0",
+  "description": "Node.js api for text to speech google service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aferre/node-tts.git"
+  },
+  "keywords": [
+    "tts",
+    "text-to-speech"
+  ],
+  "dependencies": {
+    "redis-jsonify": "0.0.x",
+    "lame": "1.0.x",
+    "sleep": "1.1.x",
+    "speaker": "git://github.com/aferre/node-speaker.git#master",
+    "redis": "0.8.x"
+  },
+  "engine": "node >= 0.7",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.3",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-release": "~0.5.1"
+  },
+  "author": "Adrien Ferre",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/aferre/node-tts/issues"
+  }
+}
